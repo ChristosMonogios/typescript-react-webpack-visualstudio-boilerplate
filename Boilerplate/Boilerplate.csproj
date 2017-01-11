@@ -41,7 +41,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="distribution\javascript\" />
+    <Folder Include="distribution\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

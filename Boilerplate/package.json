@@ -4,6 +4,7 @@
   "description": "A lightweight Visual Studio project with support for TypeScript2, React and Webpack",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -23,7 +24,11 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.0-beta.18",
+    "html-webpack-plugin": "^2.26.0",
+    "path": "^0.12.7",
     "source-map-loader": "^0.1.5",
-    "typescript": "^2.1.4"
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }

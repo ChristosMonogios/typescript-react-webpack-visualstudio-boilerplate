@@ -23,13 +23,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="tsconfig.json" />
+    <Content Include="distribution\index.html" />
     <Content Include="index.html" />
     <Content Include="web.config" />
     <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="javascript\components\FirstComponent.tsx" />
-    <TypeScriptCompile Include="javascript\index.tsx" />
+    <TypeScriptCompile Include="scripts\App.tsx" />
+    <TypeScriptCompile Include="scripts\components\FirstComponent.tsx" />
+    <TypeScriptCompile Include="scripts\layouts\MainLayout.tsx" />
+    <TypeScriptCompile Include="scripts\pages\AboutUsPage.tsx" />
+    <TypeScriptCompile Include="scripts\pages\HomePage.tsx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="package.json" />
@@ -40,9 +44,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="distribution\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

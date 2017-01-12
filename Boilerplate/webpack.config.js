@@ -3,7 +3,7 @@ var path = require("path");
 
 module.exports = {
     entry: [
-        path.resolve(__dirname, "javascript/index.tsx")
+        path.resolve(__dirname, "scripts/App.tsx")
     ],
 
     output: {
@@ -14,7 +14,8 @@ module.exports = {
     devtool: "source-map", // Enable sourcemaps for debugging webpack's output.
 
     devServer: {
-        contentBase: "distribution"
+        contentBase: "distribution",
+        historyApiFallback: true
     },
 
     resolve: {

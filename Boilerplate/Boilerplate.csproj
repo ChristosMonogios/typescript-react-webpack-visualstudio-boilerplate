@@ -31,6 +31,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="scripts\App.tsx" />
     <TypeScriptCompile Include="scripts\components\FirstComponent.tsx" />
+    <TypeScriptCompile Include="scripts\components\FirstComponentContainer.tsx" />
     <TypeScriptCompile Include="scripts\layouts\MainLayout.tsx" />
     <TypeScriptCompile Include="scripts\pages\AboutUsPage.tsx" />
     <TypeScriptCompile Include="scripts\pages\HomePage.tsx" />

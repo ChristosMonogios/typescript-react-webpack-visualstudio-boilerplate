@@ -1,11 +1,16 @@
 ﻿{
   "compilerOptions": {
     "outDir": "./distribution/",
-    "sourceMap": true,
-    "noImplicitAny": true,
     "module": "commonjs",
-    "target": "es5",
-    "jsx": "react"
+    "target": "es6",
+    "jsx": "react",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "noEmitHelpers": true
   },
   "include": [
     "./scripts/**/*"

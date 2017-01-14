@@ -18,12 +18,18 @@
   "author": "Christos Monogios",
   "license": "ISC",
   "dependencies": {
+    "@types/fabric": "^1.5.20",
     "@types/react": "0.0.0",
     "@types/react-dom": "^0.14.20",
+    "@types/react-redux": "^4.4.35",
     "@types/react-router": "^2.0.42",
+    "@types/redux": "^3.6.0",
+    "fabric": "^1.7.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.0"
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.0",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.0-beta.18",

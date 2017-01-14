@@ -29,12 +29,16 @@
     <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="scripts\actions\PersonActions.ts" />
     <TypeScriptCompile Include="scripts\App.tsx" />
     <TypeScriptCompile Include="scripts\components\FirstComponent.tsx" />
     <TypeScriptCompile Include="scripts\components\FirstComponentContainer.tsx" />
     <TypeScriptCompile Include="scripts\layouts\MainLayout.tsx" />
+    <TypeScriptCompile Include="scripts\models\Person.ts" />
     <TypeScriptCompile Include="scripts\pages\AboutUsPage.tsx" />
     <TypeScriptCompile Include="scripts\pages\HomePage.tsx" />
+    <TypeScriptCompile Include="scripts\reducers\PersonReducer.ts" />
+    <TypeScriptCompile Include="scripts\Store.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="package.json" />
